@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Poppins:wght@200;300;400&family=Rubik:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /*lo que equivale los pixeles*/
+}
+
+body{
+    font-family: grid;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    grid-template-rows:min-content 1fr min-content;
+    margin-bottom: 8rem;
+}
+
+/*Tolbar*/
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111011;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 30rem);
+}
+
+.container-arrows{
+    display: flex;
+    gap: 3rem;
+}
+
+/*flechas*/
+.container-arrow-left,
+.container-arrow-right{
+    background-color: #111011;
+    width: 3rem;
+    height: 3rem;
+    border-radius:50%;
+    display: flex;
+    /*alinacion de flechas*/
+    justify-content: center;
+    align-items: center;
+}
+/*Estilos de los iconos de las flechas*/
+.container-arrow-left,
+.container-arrow-right{
+    color: white;
+    font-size: 1.4rem;
+}
+
+/*boton usuario*/
+.bottons-user{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn-register{
+    color: #a7a7a7;
+    font: weight 700;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.btn-login{
+    text-decoration: none;
+}
+
+.btn-full{
+    font-size: 1.6rem;
+    color: black;
+    padding: 1.5rem 2rem;
+    border-radius:2rem;
+    font-weight: 700rem;
+    background-color: #fff;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+.btn-full:hover{
+    transform: scale(1.04);
+}
+
+
+
+
+
+
+
+
+
