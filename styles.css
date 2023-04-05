@@ -190,14 +190,14 @@ body{
 }
 
 .logo-svg{
-color:#6cf30b;
+color:#FFFFFF;
 width: 18rem;
 padding: 0 2.4rem;
 }
 
 .nav-main{
     padding: 0 2.4rem;
-
+    margin-top: -8px;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -319,9 +319,9 @@ padding: 0 2.4rem;
     cursor: pointer;
     transition: all 0.4s ease;
     margin-top: -30px;
-
-    
 }
+
+
 
 .btn-language:hover{
     transform: scale(1.05);
