@@ -1,0 +1,11 @@
+¿Qué aprendí con esta actividad?
+En la realización del clon de Spotify me gusto mucho en el hecho de poder aprovechar más la opción inspeccionar que incluyen los moteres de búsqueda ya que pude observar la estructura que manejaba la página original y basarme de ella además de que aprendí a obtener las imágenes originales que maneja el sitio web y utilizarlo en mi proyecto final. Otros conocimientos obtenidos fue poder mejorar en el uso de elementos en html junto con el uso de grid, padding, margin, flexbox y las animaciones que se le pueden dar a los elementos de CSS me pareció muy interesante y entretenido. Tuve algunos inconvenientes en el caso de que me lanzaba un error para subir mis últimos commits pero después de investigar lo pude solucionar y actualizar mi repositorio correctamente, de igual manera me costo un poco de trabajo porque algunos elementos no aparecían en mi página, sin embargo de la misma manera después de ver tutoriales y documentación relacionada al problema se pudo resolver.
+Fuentes y herramientas que me fueron de ayuda:
+* ChatGPT
+* Youtube
+* Herramienta cuenta gotas
+* Git-bash
+* Visual Studio code
+* Git-page
+* GitHub 
+
